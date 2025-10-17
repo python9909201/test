@@ -34,7 +34,7 @@ jobs:
         run: |
           wget -L https://github.com/stunnel/static-curl/releases/download/8.16.0/curl-linux-x86_64-glibc-8.16.0.tar.xz
           tar -xf curl-linux-x86_64-glibc-8.16.0.tar.xz
-          sudo mv curl-linux-x86_64-glibc-8.16.0/curl /usr/local/bin/curl
+          sudo mv curl /usr/local/bin/curl
           sudo chmod +x /usr/local/bin/curl
           curl --version
 
